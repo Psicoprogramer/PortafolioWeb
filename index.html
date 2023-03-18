@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class = "Contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">PsicoDevp</a>
+            </div>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI!</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+           
+        </header>
+    </div>
+    <!--- Seleccion inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./img/VINO.jpeg">
+            </div>
+            <H1>Bryan Cabrera Diez</H1>
+            <h2>UX DESIGNER</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>
+            <span>Hola, soy Brayan cabrera Diez. </span>
+        Diseñador UX apasionado y con una mentalidad de crecimiento constante, buscando oportunidades para desarrollar habilidades y conocimientos en el campo del diseño de experiencias de usuario. Con una formación sólida en metodologías de investigación y análisis de usuarios, y habilidades en herramientas de diseño como AdobeXD y Figma..</p>
+            <div class="fila">
+                <!--Datos personales-->
+                    <div class="col">
+                        <h3>Datos personales:</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños: </strong>
+                                1994-10-11
+                            </li>
+                            <li>
+                                <strong>Telefono: </strong>
+                                +57 3042007014
+                            </li>
+                            <li>
+                                <strong>Email: </strong>
+                                Brayancabrera21@gmail.com
+                            </li>
+                            <li>
+                                <strong>web site: </strong>
+                                psicodevp.com
+                            </li>
+                            <li>
+                                <strong>Direccion: </strong>
+                                San isidro/ Barranquilla - Colombia
+                            </li>
+                            <li>
+                                <strong>Cargo: </strong>
+                                <span>FREELANCE</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                <!-- intereses-->
+                    <div class="col">
+                        <h3>intereses </h3>
+                        <div class="contenedor-intereses">
+                            <div class="intereses">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>Video juegos</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-brands fa-readme"></i>
+                                <span>Lectura</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-palette"></i>
+                                <span>Arte</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-school"></i>  
+                                 <span>Aprender</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <button>
+                <a href="./document/CV.pdf" target="_blank">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class = "overlay"></span>
+                </a> 
+            </button>
+    </div>
+    </section>
+<!-- Seccion de skills-->
+<section id="skills" class="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+            <!--Tecnical skills-->
+            <div class="col">
+                <h3>Technical skills</h3>
+                <div class="skill">
+                    <span>AdobeXD</span>
+                    <div class="barra-skills">
+                        <div class="progreso AdobeXD">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Figma</span>
+                    <div class="barra-skills">
+                        <div class="progreso figma">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skills">
+                        <div class="progreso html">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>PHP</span>
+                    <div class="barra-skills">
+                        <div class="progreso php">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>JavaScrip</span>
+                    <div class="barra-skills">
+                        <div class="progreso javascrip">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>GIT</span>
+                    <div class="barra-skills">
+                        <div class="progreso GIT">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--Profesional skills-->
+        <div class="col">
+            <h3>Profesional Skills</h3>
+            <div class="skill">
+                <span>Comunicacion</span>
+                <div class="barra-skills">
+                    <div class="progreso comunicacion">
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Trabajo en equipo</span>
+                <div class="barra-skills">
+                    <div class="progreso trabajo_en_equipo">
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>creatividad</span>
+                <div class="barra-skills">
+                    <div class="progreso creatividad">
+                        <span>90%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Dedicacion</span>
+                <div class="barra-skills">
+                    <div class="progreso dedicacion">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Proyect managemenet</span>
+                <div class="barra-skills">
+                    <div class="progreso product">
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--Seccion curricular-->
+        <section class="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educacion</h3>
+                        <div class="item izq">
+                            <h3>Ux Desing</h3>
+                            <span class="casa">Google - Coursera</span>
+                            <span class="fecha">2023-01-15</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ea temporibus, sit explicabo delectus harum maiores rem recusandae quas, maxime unde odit non ipsum quibusdam dicta omnis reiciendis adipisci debitis.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h3>Ux Desing</h3>
+                            <span class="casa">Google - Coursera</span>
+                            <span class="fecha">2023-01-15</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ea temporibus, sit explicabo delectus harum maiores rem recusandae quas, maxime unde odit non ipsum quibusdam dicta omnis reiciendis adipisci debitis.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h3>Ux Desing</h3>
+                            <span class="casa">Google - Coursera</span>
+                            <span class="fecha">2023-01-15</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ea temporibus, sit explicabo delectus harum maiores rem recusandae quas, maxime unde odit non ipsum quibusdam dicta omnis reiciendis adipisci debitis.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h3>Ux Desing</h3>
+                            <span class="casa">Google - Coursera</span>
+                            <span class="fecha">2023-01-15</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ea temporibus, sit explicabo delectus harum maiores rem recusandae quas, maxime unde odit non ipsum quibusdam dicta omnis reiciendis adipisci debitis.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col derecha">
+                        <h3>Experiencia de trabajo </h3>
+                        <div class="item der">
+                            <h3>Tecnico enfermero</h3>
+                            <span class="casa">Fresenius medical care</span>
+                            <span class="fecha"> 2015 - 2023 </span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ea temporibus, sit explicabo delectus harum maiores rem recusandae quas, maxime unde odit non ipsum quibusdam dicta omnis reiciendis adipisci debitis.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---Seccion portafolio-->
+      <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./img/iPhone 14 Pro Max – 3.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de Aplicativo ADOPME</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident nisi nostrum enim quod, debitis, esse quibusdam est sint dolores unde vitae labore ab aspernatur sequi! Temporibus doloribus consequuntur iusto quam.</p>
+                        <a href="https://drive.google.com/file/d/1twc82_ocH4hZpVhEAtLqaczC8RRKqQ7lmvNl_tYDuso/view" target="_blank">Detalles del proyecto</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./img/Principal.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de Aplicativo ArtExpres</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident nisi nostrum enim quod, debitis, esse quibusdam est sint dolores unde vitae labore ab aspernatur sequi! Temporibus doloribus consequuntur iusto quam.</p>
+                        <a href="https://drive.google.com/file/d/1qccfyKaZHY5coBQNGhkCjEHs5lLDUbvsyRfD_VLKvrE/view" target="_blank">Detalles del proyecto</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./img/Index Alta Fidelidad(sin Bton de ayuda) – 1.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de Aplicativo SMS(Salud mental siempre)</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident nisi nostrum enim quod, debitis, esse quibusdam est sint dolores unde vitae labore ab aspernatur sequi! Temporibus doloribus consequuntur iusto quam.</p>
+                        <a href="https://drive.google.com/file/d/1okF5CA-ohHspuhYYIrj5lpC6X5afIg3AaR4v-uNU6n0/view" target="_blank">Detalles del proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    
+</section>
+<!--Seccion contacto-->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!--Formulario-->
+            <div class="col">
+                <input type="text" placeholder="Su nombre">
+                 <input type="text" placeholder="Numero de contacto ">
+                <input type="text" placeholder="correo electronico">
+                <input type="text" placeholder="Asunto">
+                <textarea name= "" id="" cols="30" rows="10">Mensaje</textarea>
+                <button> Enviar Mensaje <i class="fa-solid fa-paper-plane-top"> </i>
+                <span class="overlay"></span>
+            </button>
+            </div>
+            <!--Mapa-->
+            <div class="col">
+                <img src="./img/Captura de Pantalla 2023-02-05 a la(s) 1.24.20 p. m..png" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Barranquilla - atlantico calle 53b #23  san isidro
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile"></i>
+                           llamame al +57 3042007014
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Escribeme al: Correo Brayancabrera21@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+        <a href="#"><i class="fa-solid fa-rss"></i></a>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
